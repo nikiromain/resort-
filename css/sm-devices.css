@@ -1,0 +1,137 @@
+
+@media (max-width: 575.98px)
+{ 
+    #resort-description
+{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+#resort-description img
+{
+    width:87%;
+    height:87%;
+    object-fit: cover;
+
+}
+
+#res-details
+{
+    padding: 0px 15px 0 33px;
+}
+
+header nav
+{
+    display:none;
+}
+
+
+#ham-menu
+{
+    display:block;
+    justify-self:end;
+    align-self:center;
+    padding: 15px;
+    margin-left: 85%;
+}
+
+#featured-resorts
+{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.desc img
+{
+    height: 45vh;
+    width: 85vw;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.desc
+{
+    margin: 25px 0; 
+}
+
+#hero h2
+{
+    font-size: 2.2rem;
+    text-align:center;
+}
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) 
+
+    { 
+        #resort-description
+    {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    
+    #resort-description img
+    {
+        width:87%;
+        height:87%;
+        object-fit: cover;
+    
+    }
+    
+    #res-details
+    {
+        padding: 0px 15px 0 33px;
+    }
+    
+    header nav
+    {
+        display:none;
+    }
+    
+    
+    #ham-menu
+    {
+        display:block;
+        justify-self:end;
+        align-self:center;
+        padding: 15px;
+        margin-left: 85%;
+    }
+    
+    #featured-resorts
+    {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    
+    }
+    
+    .desc img
+    {
+        height: 45vh;
+        width: 85vw;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        
+    }
+    
+    .desc
+    {
+        margin: 25px 0; 
+    }
+    
+    #hero h2
+    {
+        font-size: 2.2rem;
+        text-align:center;
+    }
+}

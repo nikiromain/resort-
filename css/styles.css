@@ -1,0 +1,125 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4rem;
+}
+
+
+header li
+{
+    display:inline-block;
+    margin: 7px 0 7px 19px;
+}
+
+header a
+{
+    color:white;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight:bold;
+    padding: 12px 20px;
+
+}
+
+#menu
+{
+    background-color: #03223c;
+}
+
+#hero
+{
+    background-image: url("../img/resortBg.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    height: calc(100vh - 37px);
+
+}
+
+#hero h2
+{
+    color:white;
+    font-size:4rem;
+    line-height: 1.2;
+}
+
+.desc img
+{
+    height: 60vh;
+    width: 23vw;
+    object-fit: cover;
+    border-radius:10px 10px 0 0;
+}
+
+#resorts h3
+{
+    margin: 15px 0px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+
+
+#featured-resorts
+{
+    margin: 0 20px 0 20px;
+    
+}
+
+.desc
+{
+    border-radius:12px;
+    border:.5px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.desc-res
+{
+    padding: 0 0 10px 10px;
+}
+
+footer
+{
+    background-color: #03223c;
+    margin-top:40px;
+    padding: 8px 0 8px 0;
+    margin-bottom:0;
+}
+
+footer p{
+    text-align:center;
+    color:white;
+}
+
+#resort-description
+{
+    grid-template-columns: 30em 1fr;
+}
+
+
+#res-details 
+{
+    padding: 12px;
+}
+
+#resort-description img
+{
+    padding: 20px;
+    width:100%;
+    max-width:100%;
+   
+
+}
+
+.footer-height{
+    height:calc(100vh - 115px);
+}
+
